@@ -15,7 +15,7 @@
   
     
   
-  <meta name="description" content="We present a mobile visual clothing search system whereby a smart phone user can either choose a social networking photo or take a new photo of a person wearing clothing of interest and search for similar clothing in a retail database. From the query image, the person is detected, clothing is segmented, and clothing features are extracted and quantized. The information is sent from the phone client to a server, where the feature vector of the query image is used to retrieve similar clothing products from online databases. The phone&#39;s GPS location is used to re-rank results by retail store location. State of the art work focuses primarily on the recognition of a diverse range of clothing offline and pays little attention to practical applications. Evaluated on a challenging dataset, the system is relatively fast and achieves promising results.">
+  <meta name="description" content="State representation learning aims at learning compact representations from raw observations in robotics and control applications. Approaches used for this objective are auto-encoders, learning forward models, inverse dynamics or learning using generic priors on the state characteristics. However, the diversity in applications and methods makes the field lack standard evaluation datasets, metrics and tasks. This paper provides a set of environments, data generators, robotic control tasks, metrics and tools to facilitate iterative state representation learning and evaluation in reinforcement learning settings.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://nataliadiaz.github.io/publication/clothing-search/">
@@ -95,8 +95,8 @@
   
   <meta property="og:site_name" content="Natalia Díaz Rodríguez, PhD">
   <meta property="og:url" content="https://nataliadiaz.github.io/publication/clothing-search/">
-  <meta property="og:title" content="Mobile visual clothing search | Natalia Díaz Rodríguez, PhD">
-  <meta property="og:description" content="We present a mobile visual clothing search system whereby a smart phone user can either choose a social networking photo or take a new photo of a person wearing clothing of interest and search for similar clothing in a retail database. From the query image, the person is detected, clothing is segmented, and clothing features are extracted and quantized. The information is sent from the phone client to a server, where the feature vector of the query image is used to retrieve similar clothing products from online databases. The phone&#39;s GPS location is used to re-rank results by retail store location. State of the art work focuses primarily on the recognition of a diverse range of clothing offline and pays little attention to practical applications. Evaluated on a challenging dataset, the system is relatively fast and achieves promising results.">
+  <meta property="og:title" content="S-RL Toolbox | Natalia Díaz Rodríguez, PhD">
+  <meta property="og:description" content="State representation learning aims at learning compact representations from raw observations in robotics and control applications. Approaches used for this objective are auto-encoders, learning forward models, inverse dynamics or learning using generic priors on the state characteristics. However, the diversity in applications and methods makes the field lack standard evaluation datasets, metrics and tasks. This paper provides a set of environments, data generators, robotic control tasks, metrics and tools to facilitate iterative state representation learning and evaluation in reinforcement learning settings.">
   
   
     
@@ -105,14 +105,14 @@
   
   <meta property="article:published_time" content="2013-07-01T00:00:00&#43;02:00">
   
-  <meta property="article:modified_time" content="2018-10-27T13:22:32&#43;02:00">
+  <meta property="article:modified_time" content="2018-11-03T17:37:06&#43;01:00">
   
 
   
 
   
 
-  <title>Mobile visual clothing search | Natalia Díaz Rodríguez, PhD</title>
+  <title>S-RL Toolbox | Natalia Díaz Rodríguez, PhD</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" class="dark">
@@ -184,9 +184,9 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#posts">
+          <a class="nav-link" href="/#projects">
             
-            <span>Posts</span>
+            <span>Projects</span>
             
           </a>
         </li>
@@ -203,9 +203,9 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#projects">
+          <a class="nav-link" href="/#posts">
             
-            <span>Projects</span>
+            <span>Posts</span>
             
           </a>
         </li>
@@ -260,8 +260,8 @@
 
 
 <div class="article-header d-xl-none">
-  <img src="/publication/clothing-search/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_1600x400_fill_q90_box_smart1.jpg" class="article-banner" itemprop="image" alt="">
-  <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/pLCdAaMFLTE" target="_blank"><strong>Unsplash</strong></a></span>
+  <img src="/publication/clothing-search/featured_hu537cff59ca6047c1733631750aa973b7_270198_1600x400_fill_q90_box_smart1_2.png" class="article-banner" itemprop="image" alt="">
+  <span class="article-header-caption">Image credit: <a href="https://github.com/araffin/robotics-rl-srl" target="_blank"><strong>Unsplash</strong></a></span>
 </div>
 
 
@@ -269,7 +269,7 @@
   <div class="row">
     <div class="col-6">
       <div class="split-header-content">
-        <h1 itemprop="name">Mobile visual clothing search</h1>
+        <h1 itemprop="name">S-RL Toolbox</h1>
 
         
 
@@ -282,10 +282,22 @@
   
   <div>
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">GA Cushen</span>
+      <span itemprop="name">Antonin Raffin</span>
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">MS Nixon</span>
+      <span itemprop="name">Ashley Hill</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">René Traoré</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Timothée Lesort</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Natalia Díaz-Rodríguez</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">David Filliat</span>
     </span>
     
   </div>
@@ -296,8 +308,8 @@
         Last updated on
     
     <meta content="2013-07-01 00:00:00 &#43;0200 CEST" itemprop="datePublished">
-    <time datetime="2018-10-27 13:22:32 &#43;0200 CEST" itemprop="dateModified">
-      Oct 27, 2018
+    <time datetime="2018-11-03 17:37:06 &#43;0100 CET" itemprop="dateModified">
+      Nov 3, 2018
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -321,7 +333,7 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Mobile%20visual%20clothing%20search&amp;url=https%3a%2f%2fnataliadiaz.github.io%2fpublication%2fclothing-search%2f"
+         href="https://twitter.com/intent/tweet?text=S-RL%20Toolbox&amp;url=https%3a%2f%2fnataliadiaz.github.io%2fpublication%2fclothing-search%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
@@ -335,21 +347,21 @@
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fnataliadiaz.github.io%2fpublication%2fclothing-search%2f&amp;title=Mobile%20visual%20clothing%20search"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fnataliadiaz.github.io%2fpublication%2fclothing-search%2f&amp;title=S-RL%20Toolbox"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fnataliadiaz.github.io%2fpublication%2fclothing-search%2f&amp;title=Mobile%20visual%20clothing%20search"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fnataliadiaz.github.io%2fpublication%2fclothing-search%2f&amp;title=S-RL%20Toolbox"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Mobile%20visual%20clothing%20search&amp;body=https%3a%2f%2fnataliadiaz.github.io%2fpublication%2fclothing-search%2f">
+         href="mailto:?subject=S-RL%20Toolbox&amp;body=https%3a%2f%2fnataliadiaz.github.io%2fpublication%2fclothing-search%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -361,15 +373,15 @@
     </div>
     <div class="col-6">
       <div class="split-header-image">
-        <img src="/publication/clothing-search/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_680x500_fill_q90_box_smart1.jpg" itemprop="image" alt="">
-        <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/pLCdAaMFLTE" target="_blank"><strong>Unsplash</strong></a></span>
+        <img src="/publication/clothing-search/featured_hu537cff59ca6047c1733631750aa973b7_270198_680x500_fill_q90_box_smart1_2.png" itemprop="image" alt="">
+        <span class="article-header-caption">Image credit: <a href="https://github.com/araffin/robotics-rl-srl" target="_blank"><strong>Unsplash</strong></a></span>
       </div>
     </div>
   </div>
 </div>
 
 <div class="article-container d-xl-none">
-  <h1 itemprop="name">Mobile visual clothing search</h1>
+  <h1 itemprop="name">S-RL Toolbox</h1>
 
   
 
@@ -382,10 +394,22 @@
   
   <div>
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">GA Cushen</span>
+      <span itemprop="name">Antonin Raffin</span>
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">MS Nixon</span>
+      <span itemprop="name">Ashley Hill</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">René Traoré</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Timothée Lesort</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Natalia Díaz-Rodríguez</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">David Filliat</span>
     </span>
     
   </div>
@@ -396,8 +420,8 @@
         Last updated on
     
     <meta content="2013-07-01 00:00:00 &#43;0200 CEST" itemprop="datePublished">
-    <time datetime="2018-10-27 13:22:32 &#43;0200 CEST" itemprop="dateModified">
-      Oct 27, 2018
+    <time datetime="2018-11-03 17:37:06 &#43;0100 CET" itemprop="dateModified">
+      Nov 3, 2018
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -417,7 +441,7 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Mobile%20visual%20clothing%20search&amp;url=https%3a%2f%2fnataliadiaz.github.io%2fpublication%2fclothing-search%2f"
+         href="https://twitter.com/intent/tweet?text=S-RL%20Toolbox&amp;url=https%3a%2f%2fnataliadiaz.github.io%2fpublication%2fclothing-search%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
@@ -431,21 +455,21 @@
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fnataliadiaz.github.io%2fpublication%2fclothing-search%2f&amp;title=Mobile%20visual%20clothing%20search"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fnataliadiaz.github.io%2fpublication%2fclothing-search%2f&amp;title=S-RL%20Toolbox"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fnataliadiaz.github.io%2fpublication%2fclothing-search%2f&amp;title=Mobile%20visual%20clothing%20search"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fnataliadiaz.github.io%2fpublication%2fclothing-search%2f&amp;title=S-RL%20Toolbox"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Mobile%20visual%20clothing%20search&amp;body=https%3a%2f%2fnataliadiaz.github.io%2fpublication%2fclothing-search%2f">
+         href="mailto:?subject=S-RL%20Toolbox&amp;body=https%3a%2f%2fnataliadiaz.github.io%2fpublication%2fclothing-search%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -465,7 +489,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">We present a mobile visual clothing search system whereby a smart phone user can either choose a social networking photo or take a new photo of a person wearing clothing of interest and search for similar clothing in a retail database. From the query image, the person is detected, clothing is segmented, and clothing features are extracted and quantized. The information is sent from the phone client to a server, where the feature vector of the query image is used to retrieve similar clothing products from online databases. The phone&rsquo;s GPS location is used to re-rank results by retail store location. State of the art work focuses primarily on the recognition of a diverse range of clothing offline and pays little attention to practical applications. Evaluated on a challenging dataset, the system is relatively fast and achieves promising results.</p>
+    <p class="pub-abstract" itemprop="text">State representation learning aims at learning compact representations from raw observations in robotics and control applications. Approaches used for this objective are auto-encoders, learning forward models, inverse dynamics or learning using generic priors on the state characteristics. However, the diversity in applications and methods makes the field lack standard evaluation datasets, metrics and tasks. This paper provides a set of environments, data generators, robotic control tasks, metrics and tools to facilitate iterative state representation learning and evaluation in reinforcement learning settings.</p>
     
 
     
@@ -476,8 +500,8 @@
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
             
-            <a href="/publication/#1">
-              Conference paper
+            <a href="/publication/#4">
+              Report
             </a>
             
           </div>
@@ -494,7 +518,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>International Conference on Multimedia and Expo Workshops (ICMEW)</em>, IEEE.</div>
+          <div class="col-12 col-md-9">In Arxiv</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -529,7 +553,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/1809.09369" target="_blank" rel="noopener">
   Preprint
 </a>
 
@@ -545,7 +569,7 @@
   
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/1809.09369.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -559,9 +583,7 @@
 
 
 
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="/publication/clothing-search/#" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/araffin/robotics-rl-srl" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -580,6 +602,10 @@
   <a class="btn btn-outline-primary my-1 mr-1" href="/project/internal-project/">
     Project
   </a>
+  
+
+  
+    
   
 
 
@@ -604,9 +630,7 @@
 
 
 
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="/publication/clothing-search/#" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?list=PLFxFrY0V2V0XbA0yW-MwFHLsK5mHOQ1mh&amp;v=qNsHMkIsqJc" target="_blank" rel="noopener">
   Video
 </a>
 
@@ -623,7 +647,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="http://example.org" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/araffin/robotics-rl-srl" target="_blank" rel="noopener">
   Custom Link
 </a>
 
@@ -643,6 +667,14 @@
 
     
 
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/dream-project/">DREAM-Project</a>
+  
+  <a class="badge badge-light" href="/tags/deep-learning/">deep-learning</a>
+  
+</div>
 
 
 
