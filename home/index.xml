@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on Personal web</title>
+    <title>Homes on Natalia Díaz Rodríguez, PhD</title>
     <link>https://nataliadiaz.github.io/home/</link>
-    <description>Recent content in Homes on Personal web</description>
+    <description>Recent content in Homes on Natalia Díaz Rodríguez, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
@@ -36,8 +36,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>https://nataliadiaz.github.io/home/about/</guid>
-      <description>Biography Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet.</description>
+      <description>Biography Natalia is Assistant Professor of Artificial Intelligence at the Autonomous Systems and Robotics Lab (U2IS) at ENSTA ParisTech. She also belongs to the INRIA Flowers team on developmental robotics. Her research interests include deep, reinforcement and unsupervised learning, (state) representation learning, explainable AI and AI for social good. She is working on open-ended learning and continual learning for computer vision applications of robotics, and has also background on knowledge engineering (semantic web, ontologies and knowledge graphs).</description>
     </item>
     
     <item>
