@@ -4,8 +4,16 @@
     
     <url>
     
+      <loc>https://nataliadiaz.github.io/project/s-rl-toolbox/</loc>
+      <lastmod>2018-11-04T18:19:43+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://nataliadiaz.github.io/removed/tutorial/example/</loc>
-      <lastmod>2018-09-09T00:00:00+02:00</lastmod>
+      <lastmod>2018-11-04T17:26:03+01:00</lastmod>
     </url>
     
   
@@ -13,7 +21,7 @@
     <url>
     
       <loc>https://nataliadiaz.github.io/removed/tutorial/</loc>
-      <lastmod>2018-09-09T00:00:00+02:00</lastmod>
+      <lastmod>2018-11-04T17:26:03+01:00</lastmod>
     </url>
     
   
@@ -21,7 +29,7 @@
     <url>
     
       <loc>https://nataliadiaz.github.io/removed/talk/example/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+      <lastmod>2018-11-04T17:26:03+01:00</lastmod>
     </url>
     
   
@@ -29,7 +37,7 @@
     <url>
     
       <loc>https://nataliadiaz.github.io/removed/post/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+      <lastmod>2018-11-04T17:26:03+01:00</lastmod>
     </url>
     
   
@@ -37,7 +45,7 @@
     <url>
     
       <loc>https://nataliadiaz.github.io/publication/</loc>
-      <lastmod>2018-10-14T02:15:45+01:00</lastmod>
+      <lastmod>2018-11-04T17:26:03+01:00</lastmod>
     </url>
     
   
@@ -45,23 +53,23 @@
     <url>
     
       <loc>https://nataliadiaz.github.io/removed/talk/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+      <lastmod>2018-11-04T17:26:03+01:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>https://nataliadiaz.github.io/project/internal-project/</loc>
-      <lastmod>2018-11-03T17:15:05+01:00</lastmod>
+      <loc>https://nataliadiaz.github.io/project/continual-ai/</loc>
+      <lastmod>2018-11-04T18:19:43+01:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>https://nataliadiaz.github.io/project/external-project/</loc>
-      <lastmod>2018-10-27T13:22:32+02:00</lastmod>
+      <loc>https://nataliadiaz.github.io/project/dream/</loc>
+      <lastmod>2018-11-04T18:19:43+01:00</lastmod>
     </url>
     
   
@@ -69,23 +77,15 @@
     <url>
     
       <loc>https://nataliadiaz.github.io/removed/post/getting-started/</loc>
-      <lastmod>2018-01-13T00:00:00+01:00</lastmod>
+      <lastmod>2018-11-04T17:26:03+01:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>https://nataliadiaz.github.io/publication/continualai/</loc>
-      <lastmod>2015-09-01T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://nataliadiaz.github.io/publication/clothing-search/</loc>
-      <lastmod>2018-11-03T17:37:06+01:00</lastmod>
+      <loc>https://nataliadiaz.github.io/publication/cl-metrics/</loc>
+      <lastmod>2018-11-04T18:19:43+01:00</lastmod>
     </url>
     
   
@@ -93,25 +93,15 @@
     <url>
     
       <loc>https://nataliadiaz.github.io/publication/s-rl-toolbox/</loc>
-      <lastmod>2013-07-01T00:00:00+02:00</lastmod>
+      <lastmod>2018-11-04T18:19:43+01:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>https://nataliadiaz.github.io/publication_types/2/</loc>
-      <lastmod>2015-09-01T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://nataliadiaz.github.io/publication_types/4/</loc>
-      <lastmod>2018-11-03T17:37:06+01:00</lastmod>
-      <priority>0</priority>
+      <loc>https://nataliadiaz.github.io/publication/srl/</loc>
+      <lastmod>2018-11-04T18:19:43+01:00</lastmod>
     </url>
     
   
@@ -119,7 +109,16 @@
     <url>
     
       <loc>https://nataliadiaz.github.io/tags/academic/</loc>
-      <lastmod>2018-01-13T00:00:00+01:00</lastmod>
+      <lastmod>2018-11-04T17:26:03+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://nataliadiaz.github.io/tags/benchmarks/</loc>
+      <lastmod>2018-11-04T18:19:43+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -136,7 +135,7 @@
     <url>
     
       <loc>https://nataliadiaz.github.io/tags/dream-project/</loc>
-      <lastmod>2018-11-03T17:37:06+01:00</lastmod>
+      <lastmod>2018-11-04T18:19:43+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -145,7 +144,7 @@
     <url>
     
       <loc>https://nataliadiaz.github.io/tags/deep-learning/</loc>
-      <lastmod>2018-11-03T17:15:05+01:00</lastmod>
+      <lastmod>2018-11-04T18:19:43+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -153,8 +152,8 @@
     
     <url>
     
-      <loc>https://nataliadiaz.github.io/tags/demo/</loc>
-      <lastmod>2018-10-27T13:22:32+02:00</lastmod>
+      <loc>https://nataliadiaz.github.io/tags/machine-learning/</loc>
+      <lastmod>2018-11-04T18:19:43+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -172,7 +171,7 @@
     <url>
     
       <loc>https://nataliadiaz.github.io/project/</loc>
-      <lastmod>2018-11-03T17:15:05+01:00</lastmod>
+      <lastmod>2018-11-04T18:19:43+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -180,8 +179,17 @@
     
     <url>
     
-      <loc>https://nataliadiaz.github.io/publication_types/</loc>
-      <lastmod>2015-09-01T00:00:00+02:00</lastmod>
+      <loc>https://nataliadiaz.github.io/tags/python/</loc>
+      <lastmod>2018-11-04T18:19:43+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://nataliadiaz.github.io/tags/reinforcement-learning/</loc>
+      <lastmod>2018-11-04T18:19:43+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -190,6 +198,16 @@
     <url>
     
       <loc>https://nataliadiaz.github.io/removed/</loc>
+      <lastmod>2018-11-04T17:26:03+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://nataliadiaz.github.io/tags/robotics/</loc>
+      <lastmod>2018-11-04T18:19:43+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -198,6 +216,16 @@
     <url>
     
       <loc>https://nataliadiaz.github.io/removed/slides/example-slides/</loc>
+      <lastmod>2018-11-04T17:26:03+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://nataliadiaz.github.io/tags/state-representation-learning/</loc>
+      <lastmod>2018-11-04T18:19:43+01:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -205,7 +233,16 @@
     <url>
     
       <loc>https://nataliadiaz.github.io/tags/</loc>
-      <lastmod>2018-01-13T00:00:00+01:00</lastmod>
+      <lastmod>2018-11-04T17:26:03+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://nataliadiaz.github.io/tags/continual-learning/</loc>
+      <lastmod>2018-11-04T18:19:43+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -214,7 +251,25 @@
     <url>
     
       <loc>https://nataliadiaz.github.io/tags/deep-learning/</loc>
-      <lastmod>2018-11-03T17:37:06+01:00</lastmod>
+      <lastmod>2018-11-04T18:19:43+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://nataliadiaz.github.io/tags/lifelong-learning/</loc>
+      <lastmod>2018-11-04T18:19:43+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://nataliadiaz.github.io/tags/machine-learning/</loc>
+      <lastmod>2018-11-04T18:19:43+01:00</lastmod>
       <priority>0</priority>
     </url>
     

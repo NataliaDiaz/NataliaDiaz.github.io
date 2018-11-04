@@ -13,30 +13,30 @@
     
     
     <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>https://nataliadiaz.github.io/publication/continualai/</link>
+      <title>Don&#39;t forget, there is more than forgetting: new metrics for Continual Learning</title>
+      <link>https://nataliadiaz.github.io/publication/cl-metrics/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0200</pubDate>
       
-      <guid>https://nataliadiaz.github.io/publication/continualai/</guid>
-      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+      <guid>https://nataliadiaz.github.io/publication/cl-metrics/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>S-RL Toolbox</title>
-      <link>https://nataliadiaz.github.io/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0200</pubDate>
-      
-      <guid>https://nataliadiaz.github.io/publication/clothing-search/</guid>
-      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
-    </item>
-    
-    <item>
-      <title>S-RL Toolbox</title>
+      <title>S-RL Toolbox: Environments, Datasets and Evaluation Metrics for State Representation Learning</title>
       <link>https://nataliadiaz.github.io/publication/s-rl-toolbox/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0200</pubDate>
       
       <guid>https://nataliadiaz.github.io/publication/s-rl-toolbox/</guid>
-      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>State Representation Learning for Control: An Overview</title>
+      <link>https://nataliadiaz.github.io/publication/srl/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0200</pubDate>
+      
+      <guid>https://nataliadiaz.github.io/publication/srl/</guid>
+      <description></description>
     </item>
     
   </channel>

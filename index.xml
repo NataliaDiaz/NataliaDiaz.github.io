@@ -11,6 +11,38 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>S-RL Toolbox</title>
+      <link>https://nataliadiaz.github.io/project/s-rl-toolbox/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://nataliadiaz.github.io/project/s-rl-toolbox/</guid>
+      <description>
+
+&lt;p&gt;S-RL Toolbox: Reinforcement Learning (RL) and State Representation Learning (SRL) Toolbox for Robotics.&lt;/p&gt;
+
+&lt;p&gt;Github repository: &lt;a href=&#34;https://github.com/araffin/robotics-rl-srl&#34; target=&#34;_blank&#34;&gt;https://github.com/araffin/robotics-rl-srl&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Documentation: &lt;a href=&#34;https://s-rl-toolbox.readthedocs.io&#34; target=&#34;_blank&#34;&gt;https://s-rl-toolbox.readthedocs.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Paper: &lt;a href=&#34;https://arxiv.org/abs/1809.09369&#34; target=&#34;_blank&#34;&gt;https://arxiv.org/abs/1809.09369&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Associated Stable Baselines Medium post: &lt;a href=&#34;https://towardsdatascience.com/stable-baselines-a-fork-of-openai-baselines-reinforcement-learning-made-easy-df87c4b2fc82?source=user_profile---------2------------------&#34; target=&#34;_blank&#34;&gt;https://towardsdatascience.com/stable-baselines-a-fork-of-openai-baselines-reinforcement-learning-made-easy-df87c4b2fc82?source=user_profile---------2------------------&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;main-features&#34;&gt;Main Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;10 RL algorithms (&lt;a href=&#34;https://github.com/hill-a/stable-baselines&#34; target=&#34;_blank&#34;&gt;Stable Baselines&lt;/a&gt; included)&lt;/li&gt;
+&lt;li&gt;logging / plotting / visdom integration / replay trained agent&lt;/li&gt;
+&lt;li&gt;hyperparameter search (hyperband, hyperopt)&lt;/li&gt;
+&lt;li&gt;integration with State Representation Learning (SRL) methods (for feature extraction)&lt;/li&gt;
+&lt;li&gt;visualisation tools (explore latent space, display action proba, live plot in the state space, &amp;hellip;)&lt;/li&gt;
+&lt;li&gt;robotics environments to compare SRL methods&lt;/li&gt;
+&lt;li&gt;easy install using anaconda env or Docker images (CPU/GPU)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Example Page</title>
       <link>https://nataliadiaz.github.io/removed/tutorial/example/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0200</pubDate>
@@ -56,21 +88,27 @@
     
     <item>
       <title>Continual AI</title>
-      <link>https://nataliadiaz.github.io/project/internal-project/</link>
+      <link>https://nataliadiaz.github.io/project/continual-ai/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>https://nataliadiaz.github.io/project/internal-project/</guid>
-      <description>&lt;p&gt;Continual AI is an open source community of researcher enthusiasts around deep learning and continual learning.&lt;/p&gt;
+      <guid>https://nataliadiaz.github.io/project/continual-ai/</guid>
+      <description>&lt;p&gt;Continual AI is an Open Community of Researchers and Enthusiasts on
+Continual/Lifelong Learning and AI.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>External Project</title>
-      <link>https://nataliadiaz.github.io/project/external-project/</link>
+      <title>DREAM EU H2020 Project</title>
+      <link>https://nataliadiaz.github.io/project/dream/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>https://nataliadiaz.github.io/project/external-project/</guid>
-      <description></description>
+      <guid>https://nataliadiaz.github.io/project/dream/</guid>
+      <description>&lt;p&gt;DREAM is a robotic project that incorporates sleep and dream-like processes within cognitive architecture. This enables an individual robot or groups of robots to consolidate their experience into more useful and generic formats, thus improving their future ability to learn and adapt. DREAM relies on Evolutionary Neurodynamic ensemble methods as a unifying principle for discovery, optimization, re-structuring and consolidation of knowledge. This new paradigm will make the robot more autonomous in its acquisition, organization and use of knowledge and skills just as long as they comply with the satisfaction of pre-established basic motivations.&lt;/p&gt;
+
+&lt;p&gt;DREAM will enable robots to cope with the complexity of being an information-processing entity in domains that are open-ended both in terms of space and time. It paves the way for a new generation of robots whose existence and purpose goes far beyond the mere execution of dull tasks.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/robotsthatdream&#34; target=&#34;_blank&#34;&gt;https://twitter.com/robotsthatdream&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -300,32 +338,34 @@ git submodule update --init --recursive
     </item>
     
     <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>https://nataliadiaz.github.io/publication/continualai/</link>
+      <title>Don&#39;t forget, there is more than forgetting: new metrics for Continual Learning</title>
+      <link>https://nataliadiaz.github.io/publication/cl-metrics/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0200</pubDate>
       
-      <guid>https://nataliadiaz.github.io/publication/continualai/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+      <guid>https://nataliadiaz.github.io/publication/cl-metrics/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
     </item>
     
     <item>
-      <title>S-RL Toolbox</title>
-      <link>https://nataliadiaz.github.io/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0200</pubDate>
-      
-      <guid>https://nataliadiaz.github.io/publication/clothing-search/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>S-RL Toolbox</title>
+      <title>S-RL Toolbox: Environments, Datasets and Evaluation Metrics for State Representation Learning</title>
       <link>https://nataliadiaz.github.io/publication/s-rl-toolbox/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0200</pubDate>
       
       <guid>https://nataliadiaz.github.io/publication/s-rl-toolbox/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
+ --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>State Representation Learning for Control: An Overview</title>
+      <link>https://nataliadiaz.github.io/publication/srl/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0200</pubDate>
+      
+      <guid>https://nataliadiaz.github.io/publication/srl/</guid>
+      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
+ --&gt;
 </description>
     </item>
     
